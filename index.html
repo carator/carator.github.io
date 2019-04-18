@@ -21,10 +21,49 @@
 
     <!-- Responsive CSS -->
     <link href="css/responsive.css" rel="stylesheet">
-
+    <script>
+    function script(){
+      document.getElementById("firstbox").style.display = "none"
+      document.getElementById("secondbox").style.display = "none"
+      document.getElementById("thirdbox").style.display = "none"
+      document.getElementById("fourthbox").style.display = "none"
+    }
+    function firstFunction() {
+      var x = document.getElementById("firstbox");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    function secondFunction() {
+      var x = document.getElementById("secondbox");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    function thirdFunction() {
+      var x = document.getElementById("thirdbox");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    function fourthFunction() {
+      var x = document.getElementById("fourthbox");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    </script>
 </head>
 
-<body>
+<body onload="script();">
     <!-- Preloader Start -->
     <div id="preloader">
         <div class="colorlib-load"></div>
@@ -122,6 +161,38 @@
                     </div>
                 </div>
             </div>
+            <div class="row single-special">
+              <p>Carator is a leading network of independent accounting and consulting firms with offices in over many major business centres.
+                Our services and teams are tailored to suit the culture of each client including publicly listed corporations, large and medium-sized
+                companies, privately owned businesses, not-for-profit and public organisations.</p>
+
+                <h4 style="padding-top:20px">PROFESSIONALISM, QUALITY, INTEGRITY, INNOVATION</h4>
+                <p>Our values are echoed everywhere we provide service to you. We understand that business people
+                  need a wide range of services and knowledge of local conditions to help them create, operate and
+                  dispose of ventures across the globe. We were formed in response to the needs of our clients; our
+                  relationships have come to define the next level of service that our clients have earned and expect.</p>
+                  <br>
+                <p>
+                  Carator is a cohesive network of independent member firms providing audit, accounting, tax and business advisory services.
+                  Our member firms share our clients’ aspirations and staff are approachable and down-to-earth individuals, delivering customised,
+                  innovative and practical solutions to help you make the right business decisions.
+                </p>
+                <br>
+                <p>
+                  Our commitment to quality is one of our main values – because it is so important to us, we strive to achieve this in everything
+                  we do. We offer same high-quality professional standards in all areas we serve.
+                </p>
+                <br>
+                <p>
+                  We offer an exceptional competitive advantage – national capabilities enhanced by global resources and attentive personal service.
+                  Our people pride themselves on their ability to combine local knowledge with regional, national and international skill sets.
+                </p>
+                <br>
+                <p>
+                  We have the depth and breadth to help your business compete effectively and successfully. Our drive for professionalism,
+                  quality, integrity and innovation has realised substantial growth for both clients and member firms.
+                </p>
+            </div>
         </div>
         <!-- Special Description Area -->
         <div class="special_description_area mt-150">
@@ -143,11 +214,10 @@
             </div>
         </div>
     </section>
-    <section class="awesome-feature-area bg-white section_padding_0_50 clearfix" id="services">
-        <div class="container">
+    <!-- <section class="awesome-feature-area bg-white section_padding_0_50 clearfix" id="services">
+         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <!-- Heading Text -->
                     <div class="section-heading text-center">
                         <h2>Awesome Services</h2>
                         <div class="line-shape"></div>
@@ -218,8 +288,178 @@
                                     <p>We match the jobseekers profile with the recruiter's requirement and bring you a chance to attain your dream job. For employment related queries, reach us at careers@carator.in</p>
                                 </div>
                                 </div>
-                            </div>
+                        </div>
 
+        </div> -->
+  <section class="awesome-feature-area bg-white section_padding_0_50 clearfix" id="services">
+        <div class = "container">
+          <div class = "row">
+            <div class="col-12">
+                <div class="section-heading text-center">
+                    <h2>Services we offer</h2>
+                    <div class="line-shape"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="special_description_img">
+                        <img src="img/bg-img/special1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-5 ml-xl-auto">
+                    <div class="special_description_content">
+                        <h2>Audit and Assurance</h2>
+                        <p>Independent audit and assurance are not just about good governance but valuable tools for
+                          benchmarking and improving business performance.</p>
+                        <p>The breadth of knowledge and experience across industries and sectors ensures our member firms
+                          to provide audit and assurance services tailored to the unique needs of your business.</p>
+                      <a onclick="firstFunction()" href="#"> Read more </a>
+                      </div>
+                </div>
+                <div id ="firstbox" class = "row" style="padding-top:40px">
+                    <div class ="single-special">
+                          <p>As well as meeting internal reporting requirements and statutory obligations, a robust annual audit
+                            identifies both threats and opportunities to your business or organisation. Intelligent insight is
+                            provided and practical recommendations are made.</p>
+                          <p style="padding-top:20px">In addition to carrying out audit and assurance services for individual businesses and organisations,
+                            our member firms frequently conduct audits on behalf of parent companies, managing and co-
+                            ordinating the audit process across an entire corporate group</p>
+                          <h4 style="padding-top:20px">OUR AUDIT AND ASSURANCE SERVICES INCLUDE:</h4>
+                          <ul style="list-style-type:circle;">
+                            <li>Statutory audits.</li>
+                            <li>Internal Audits involving review of internal controls and Risk management systems.</li>
+                            <li>Consolidation of financial statements and other financial reports.</li>
+                            <li>Due Diligence Audits.</li>
+                            <li>Special purpose audits.</li>
+                            <li>Concurrent Audits.</li>
+                          </ul>
+                      </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="special_description_img">
+                        <img src="img/bg-img/special5.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-5 ml-xl-auto">
+                    <div class="special_description_content">
+                        <h2>Business Advisory and Accounting</h2>
+                        <p>Business is not just about the numbers.</p>
+                        <p>Developing a real understanding of your business and the market you operate in, enables experts
+                          from our member firms to proactively help you drive greater efficiency and increase profitability.</p>
+                      <a onclick="secondFunction()" href="#"> Read more </a>
+                    </div>
+                </div>
+                <div id ="secondbox" class = "row" style="padding-top:40px">
+                    <div class ="single-special">
+                          <p>It can help you take advantage of opportunities, whether through identifying new investors and
+                            partners or developing and executing an acquisition strategy.</p>
+                          <p style="padding-top:20px">Business advisory services provided by us include year-end accounts
+                             preparation, management account reviews and assistance in preparing budgets and financial
+                              projections.</p>
+                          <p style="padding-top:20px">Carator helps in developing or reviewing business plans and carry out
+                            independent business reviews and valuations for lenders and investors. Our services aid to
+                            expansion into new markets, develop cross-border joint ventures or outsource business processes
+                            to lower cost locations.</p>
+                          <h4 style="padding-top:20px">OUR BUSINESS ADVISORY AND ACCOUNTING SERVICE INCLUDE:</h4>
+                          <ul>
+                            <li>Accounting and Book-keeping outsourcing.</li>
+                            <li>Budgeting, Financial planning and outsourcing.</li>
+                            <li>Cash flow and profit projections.</li>
+                            <li>Business plans and independent business reviews.</li>
+                            <li>Business Valuations.</li>
+                            <li>Company formations and company secretarial services including appropriate tax-efficient and commercials and tax-efficient structures.</li>
+                            <li>Review of Management review systems.</li>
+                            <li>Payroll administration and company administrative systems.</li>
+                          </ul>
+
+                          <p style="padding-top:20px"> Businesses and organisations are expected to comply with increasingly stringent governance not
+                            only to satisfy regulators but to demonstrate a commitment to best practice to wider stakeholders
+                            and investors. Outsourcing your governance and secretarial administration to us benefits from direct
+                            access to professional advisers, increased efficiency and cost savings.</p>
+                          <p style="padding-top:20px" > Working with specialists in the field also enables you to focus your efforts on developing your
+                             business with the assurance that your statutory obligations are being complied with.</p>
+
+                      </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="special_description_img">
+                        <img src="img/bg-img/special3.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-5 ml-xl-auto">
+                    <div class="special_description_content">
+                        <h2>Taxation</h2>
+                        <p>In an increasingly complex tax environment, having a strategy in place is vital for even the most
+                          straightforward of businesses. Taking advantage of opportunities to minimise tax liabilities can
+                          deliver significant financial benefits for your business.</p>
+                        <p>We provide corporate tax services to clients ranging from major internationals to sole traders.</p>
+                      <a onclick="thirdFunction()" href="#"> Read more </a>
+                      </div>
+                </div>
+                <div id ="thirdbox" class = "row" style="padding-top:40px">
+                    <div class ="single-special">
+
+                          <p>In-depth knowledge and understanding of areas, such as treatment of capital allowances and
+                             utilising R&D credits, can ensure your business is able to invest for growth in the most
+                             tax-efficient way.Advice on methods for deferring tax can also help prevent or deal with
+                             cash-flow issues.</p>
+                          <h4 style="padding-top:20px">OUR TAXATION SERVICE INCLUDE: </h4>
+                          <ul style="list-style-type:circle;">
+                            <li>Transfer Pricing Study.</li>
+                            <li>Income Tax Representation and Litigation support services before Tax authorities.</li>
+                            <li>Advisory on Investments for efficient tax planning.</li>
+                            <li>Preparation and Computation of Tax Liabilities.</li>
+                            <li>Structuring of pay for minimisation of tax on employee salaries.</li>
+                            <li>Filing of Tax Returns.</li>
+                            <li>Preparation of Tax Estimates for Annual discharge of tax liability.</li>
+                            <li>EXPAT and NRI taxation Services.</li>
+                            <li>Advisory on Double Taxation Advisory Agreements with various countries.</li>
+                          </ul>
+                      </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="special_description_img">
+                        <img src="img/bg-img/special4.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-5 ml-xl-auto">
+                    <div class="special_description_content">
+                        <h2>Virtual CFO</h2>
+                        <p>The concept of Virtual CFO (VCFO) is emerging very quick in the recent times. This is part
+                          of our Business Advisory and Accounting services. With increasing compliance costs, it is
+                          very much pertinent to adopt professional guidance in managing the day to day operations
+                          of the entities which shall cost a lot to small corporates. There evolved this concept of
+                           Virtual CFO where we, professionals, guide you in handling the end to end support services
+                           through outsourcing many activities.</p>
+                      <a onclick="fourthFunction()" href="#"> Read more </a>
+                      </div>
+                </div>
+                <div id ="fourthbox" class = "row" style="padding-top:40px">
+                    <div class ="single-special">
+
+                        <p>This concept helps in procuring higher quality with reduced costs, better risk management,
+                           focus on core business activities, effective spend on capital budgets, staffing flexibility
+                            and firm hand on growth metrics.</p>
+                          <h4 style="padding-top:20px">OUR VIRTUAL CFO SERVICE INCLUDE: </h4>
+                          <ul style="list-style-type:circle;">
+                            <li>Accounting</li>
+                            <li>Statutory Compliance</li>
+                            <li>Process Management</li>
+                            <li>AP and AR Management</li>
+                            <li>Secretarial Works</li>
+                            <li>Reporting of key metrics</li>
+                            <li>Analytics and forecasting</li>
+                          </ul>
+                      </div>
+                </div>
+            </div>
+        </div>
         </div>
     </section>
 
@@ -506,7 +746,7 @@
         <!-- Foooter Text-->
         <div class="copyright-text">
             <!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
-            <p>Copyright ©2018 Carator, Maintained by <a href="https://github.com/abhishekbvs" target="_blank">Abhishek Bvs</a>, Design from <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+            <p>Copyright ©2018 Carator, Maintained by <a href="https://github.com/abhishekbvs" target="_blank">Abhishek Bvs</a>, Design from Colorlib </p>
         </div>
     </footer>
     <!-- ***** Footer Area Start ***** -->

@@ -24,40 +24,68 @@
     <script>
     function script(){
       document.getElementById("firstbox").style.display = "none"
+      document.getElementById("firstrless").style.display = "none"
       document.getElementById("secondbox").style.display = "none"
+      document.getElementById("secondrless").style.display = "none"
       document.getElementById("thirdbox").style.display = "none"
+      document.getElementById("thirdrless").style.display = "none"
       document.getElementById("fourthbox").style.display = "none"
+      document.getElementById("fourthrless").style.display = "none"
     }
     function firstFunction() {
       var x = document.getElementById("firstbox");
+      var y = document.getElementById("firstrless");
+      var z = document.getElementById("firstrmore");
       if (x.style.display === "none") {
         x.style.display = "block";
+        y.style.display = "block";
+        z.style.display = "none";
       } else {
         x.style.display = "none";
+        y.style.display = "none";
+        z.style.display = "block";
       }
     }
     function secondFunction() {
       var x = document.getElementById("secondbox");
+      var y = document.getElementById("secondrless");
+      var z = document.getElementById("secondrmore");
       if (x.style.display === "none") {
         x.style.display = "block";
+        y.style.display = "block";
+        z.style.display = "none";
       } else {
         x.style.display = "none";
+        y.style.display = "none";
+        z.style.display = "block";
       }
     }
     function thirdFunction() {
       var x = document.getElementById("thirdbox");
+      var y = document.getElementById("thirdrless");
+      var z = document.getElementById("thirdrmore");
       if (x.style.display === "none") {
         x.style.display = "block";
+        y.style.display = "block";
+        z.style.display = "none";
       } else {
         x.style.display = "none";
+        y.style.display = "none";
+        z.style.display = "block";
       }
     }
     function fourthFunction() {
       var x = document.getElementById("fourthbox");
+      var y = document.getElementById("fourthrless");
+      var z = document.getElementById("fourthrmore");
       if (x.style.display === "none") {
         x.style.display = "block";
+        y.style.display = "block";
+        z.style.display = "none";
       } else {
         x.style.display = "none";
+        y.style.display = "none";
+        z.style.display = "block";
       }
     }
     </script>
@@ -214,84 +242,8 @@
             </div>
         </div>
     </section>
-    <!-- <section class="awesome-feature-area bg-white section_padding_0_50 clearfix" id="services">
-         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-heading text-center">
-                        <h2>Awesome Services</h2>
-                        <div class="line-shape"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="special_description_img">
-                        <img src="img/bg-img/special2.png" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-xl-5 ml-xl-auto">
-                    <div class="special_description_content">
-                        <h2>Accounting & MIS</h2>
-                        <p>Our advisors provide individualized services to help alleviate your financial uncertainty and stress. Your time is so valuable to invest in your core business functions. We handle all accounting aspects and track your business successes.</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="special_description_img">
-                            <img src="img/bg-img/special3.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-5 ml-xl-auto">
-                        <div class="special_description_content">
-                            <h2>Documentation & Reporting</h2>
-                            <p>We support you in making and updating your records perfect.</p>
-                        </div>
-                        </div>
-                    </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="special_description_img">
-                            <img src="img/bg-img/special4.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-5 ml-xl-auto">
-                        <div class="special_description_content">
-                            <h2>Third Party Assurance</h2>
-                            <p>We stay up-to-date on all the regulatory and legislative developments so you don’t waste time and energy trying to make sense of all the accounting complexities. Contact us today and see how we can help you.</p>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="special_description_img">
-                                <img src="img/bg-img/special1.png" alt="">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-xl-5 ml-xl-auto">
-                            <div class="special_description_content">
-                                <h2>Audit Evaluation</h2>
-                                <p>We evaluate all financial and controls that strengthen your pillars. Our reports track your performances all time and ensure no revenue leakages.</p>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="special_description_img">
-                                    <img src="img/bg-img/special5.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-xl-5 ml-xl-auto">
-                                <div class="special_description_content">
-                                    <h2>Recruitment Handling</h2>
-                                    <p>We match the jobseekers profile with the recruiter's requirement and bring you a chance to attain your dream job. For employment related queries, reach us at careers@carator.in</p>
-                                </div>
-                                </div>
-                        </div>
 
-        </div> -->
-  <section class="awesome-feature-area bg-white section_padding_0_50 clearfix" id="services">
+    <section class="awesome-feature-area bg-white section_padding_0_50 clearfix" id="services">
         <div class = "container">
           <div class = "row">
             <div class="col-12">
@@ -314,7 +266,8 @@
                           benchmarking and improving business performance.</p>
                         <p>The breadth of knowledge and experience across industries and sectors ensures our member firms
                           to provide audit and assurance services tailored to the unique needs of your business.</p>
-                      <a onclick="firstFunction()" href="#"> Read more </a>
+                      <a id="firstrmore" onclick="firstFunction()" href="#"> Read more </a>
+                      <a id="firstrless" onclick="firstFunction()" href="#"> Read less </a>
                       </div>
                 </div>
                 <div id ="firstbox" class = "row" style="padding-top:40px">
@@ -326,18 +279,18 @@
                             our member firms frequently conduct audits on behalf of parent companies, managing and co-
                             ordinating the audit process across an entire corporate group</p>
                           <h4 style="padding-top:20px">OUR AUDIT AND ASSURANCE SERVICES INCLUDE:</h4>
-                          <ul class="list-unstyled">
-                            <li>Statutory audits.</li>
-                            <li>Internal Audits involving review of internal controls and Risk management systems.</li>
-                            <li>Consolidation of financial statements and other financial reports.</li>
-                            <li>Due Diligence Audits.</li>
-                            <li>Special purpose audits.</li>
-                            <li>Concurrent Audits.</li>
+                          <ul class="list-group">
+                            <li class="list-group-item">Statutory audits.</li>
+                            <li class="list-group-item">Internal Audits involving review of internal controls and Risk management systems.</li>
+                            <li class="list-group-item">Consolidation of financial statements and other financial reports.</li>
+                            <li class="list-group-item">Due Diligence Audits.</li>
+                            <li class="list-group-item">Special purpose audits.</li>
+                            <li class="list-group-item">Concurrent Audits.</li>
                           </ul>
                       </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row"  style="padding-top:30px">
                 <div class="col-lg-6">
                     <div class="special_description_img">
                         <img src="img/bg-img/special5.png" alt="">
@@ -349,7 +302,8 @@
                         <p>Business is not just about the numbers.</p>
                         <p>Developing a real understanding of your business and the market you operate in, enables experts
                           from our member firms to proactively help you drive greater efficiency and increase profitability.</p>
-                      <a onclick="secondFunction()" href="#"> Read more </a>
+                      <a id = "secondrmore" onclick="secondFunction()" href="#"> Read more </a>
+                      <a id = "secondrless" onclick="secondFunction()" href="#"> Read less </a>
                     </div>
                 </div>
                 <div id ="secondbox" class = "row" style="padding-top:40px">
@@ -364,20 +318,20 @@
                             expansion into new markets, develop cross-border joint ventures or outsource business processes
                             to lower cost locations.</p>
                           <h4 style="padding-top:20px">OUR BUSINESS ADVISORY AND ACCOUNTING SERVICE INCLUDE:</h4>
-                          <ul>
-                            <li>Accounting and Book-keeping outsourcing.</li>
-                            <li>Budgeting, Financial planning and outsourcing.</li>
-                            <li>Cash flow and profit projections.</li>
-                            <li>Business plans and independent business reviews.</li>
-                            <li>Business Valuations.</li>
-                            <li>Company formations and company secretarial services including appropriate tax-efficient and commercials and tax-efficient structures.</li>
-                            <li>Review of Management review systems.</li>
-                            <li>Payroll administration and company administrative systems.</li>
+                          <ul class="list-group">
+                            <li class="list-group-item" >Accounting and Book-keeping outsourcing.</li>
+                            <li class="list-group-item" >Budgeting, Financial planning and outsourcing.</li>
+                            <li class="list-group-item">Cash flow and profit projections.</li>
+                            <li class="list-group-item">Business plans and independent business reviews.</li>
+                            <li class="list-group-item">Business Valuations.</li>
+                            <li class="list-group-item">Company formations and company secretarial services including appropriate tax-efficient and commercials and tax-efficient structures.</li>
+                            <li class="list-group-item">Review of Management review systems.</li>
+                            <li class="list-group-item">Payroll administration and company administrative systems.</li>
                           </ul>
                       </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" style="padding-top:30px">
                 <div class="col-lg-6">
                     <div class="special_description_img">
                         <img src="img/bg-img/special3.png" alt="">
@@ -390,7 +344,8 @@
                           straightforward of businesses. Taking advantage of opportunities to minimise tax liabilities can
                           deliver significant financial benefits for your business.</p>
                         <p>We provide corporate tax services to clients ranging from major internationals to sole traders.</p>
-                      <a onclick="thirdFunction()" href="#"> Read more </a>
+                      <a id="thirdrmore" onclick="thirdFunction()" href="#"> Read more </a>
+                      <a id="thirdrless" onclick="thirdFunction()" href="#"> Read less </a>
                       </div>
                 </div>
                 <div id ="thirdbox" class = "row" style="padding-top:40px">
@@ -401,21 +356,21 @@
                              tax-efficient way.Advice on methods for deferring tax can also help prevent or deal with
                              cash-flow issues.</p>
                           <h4 style="padding-top:20px">OUR TAXATION SERVICE INCLUDE: </h4>
-                          <ul style="list-style-type:circle;">
-                            <li>Transfer Pricing Study.</li>
-                            <li>Income Tax Representation and Litigation support services before Tax authorities.</li>
-                            <li>Advisory on Investments for efficient tax planning.</li>
-                            <li>Preparation and Computation of Tax Liabilities.</li>
-                            <li>Structuring of pay for minimisation of tax on employee salaries.</li>
-                            <li>Filing of Tax Returns.</li>
-                            <li>Preparation of Tax Estimates for Annual discharge of tax liability.</li>
-                            <li>EXPAT and NRI taxation Services.</li>
-                            <li>Advisory on Double Taxation Advisory Agreements with various countries.</li>
+                          <ul class="list-group">
+                            <li class="list-group-item">Transfer Pricing Study.</li>
+                            <li class="list-group-item">Income Tax Representation and Litigation support services before Tax authorities.</li>
+                            <li class="list-group-item">Advisory on Investments for efficient tax planning.</li>
+                            <li class="list-group-item">Preparation and Computation of Tax Liabilities.</li>
+                            <li class="list-group-item">Structuring of pay for minimisation of tax on employee salaries.</li>
+                            <li class="list-group-item">Filing of Tax Returns.</li>
+                            <li class="list-group-item">Preparation of Tax Estimates for Annual discharge of tax liability.</li>
+                            <li class="list-group-item">EXPAT and NRI taxation Services.</li>
+                            <li class="list-group-item">Advisory on Double Taxation Advisory Agreements with various countries.</li>
                           </ul>
                       </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row"  style="padding-top:30px">
                 <div class="col-lg-6">
                     <div class="special_description_img">
                         <img src="img/bg-img/special4.png" alt="">
@@ -430,7 +385,8 @@
                           of the entities which shall cost a lot to small corporates. There evolved this concept of
                            Virtual CFO where we, professionals, guide you in handling the end to end support services
                            through outsourcing many activities.</p>
-                      <a onclick="fourthFunction()" href="#"> Read more </a>
+                      <a id="fourthrmore"onclick="fourthFunction()" href="#"> Read more </a>
+                      <a id="fourthrless"onclick="fourthFunction()" href="#"> Read less </a>
                       </div>
                 </div>
                 <div id ="fourthbox" class = "row" style="padding-top:40px">
@@ -440,14 +396,14 @@
                            focus on core business activities, effective spend on capital budgets, staffing flexibility
                             and firm hand on growth metrics.</p>
                           <h4 style="padding-top:20px">OUR VIRTUAL CFO SERVICE INCLUDE: </h4>
-                          <ul class="list-unstyled">
-                            <li>Accounting</li>
-                            <li>Statutory Compliance</li>
-                            <li>Process Management</li>
-                            <li>AP and AR Management</li>
-                            <li>Secretarial Works</li>
-                            <li>Reporting of key metrics</li>
-                            <li>Analytics and forecasting</li>
+                          <ul class="list-group">
+                            <li class="list-group-item">Accounting</li>
+                            <li class="list-group-item">Statutory Compliance</li>
+                            <li class="list-group-item">Process Management</li>
+                            <li class="list-group-item">AP and AR Management</li>
+                            <li class="list-group-item">Secretarial Works</li>
+                            <li class="list-group-item">Reporting of key metrics</li>
+                            <li class="list-group-item">Analytics and forecasting</li>
                           </ul>
 
                           <p style="padding-top:20px"> Businesses and organisations are expected to comply with increasingly stringent governance not
